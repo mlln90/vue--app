@@ -7,7 +7,7 @@ import app from "./App.vue";
 // 导入 MUI 的样式
 import './lib/mui/css/mui.min.css';
 
-// 按需导入Mint-UI 中的组件
+// 按需导入Mint-UI 中的组件  只只用于vue的组件
 import {Header} from 'mint-ui';
 Vue.component(Header.name, Header);
 
